@@ -34,5 +34,12 @@ app.get("/api/employees", (req, res) => {
       department: "HR",
       location: "Mumbai",
     },
+    {
+      id: "3",
+      firstName: "Jane-do",
+      lastName: "Smith",
+      department: "IT",
+      location: "Hyderabad",
+    },
   ]);
 });
